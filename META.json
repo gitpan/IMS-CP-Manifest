@@ -1,0 +1,47 @@
+{
+   "abstract" : "IMS Content Packaging Manifest XML parser",
+   "author" : [
+      "Robin Smidsr\u00c3\u00b8d <robin@smidsrod.no>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.101612, CPAN::Meta::Converter version 2.101610",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "IMS-CP-Manifest",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : 0,
+            "XML::Rabbit" : "v0.0.1",
+            "perl" : "5.008"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "English" : 0,
+            "Test::More" : 0,
+            "utf8" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/robinsmidsrod/IMS-CP-Manifest.git",
+         "web" : "http://github.com/robinsmidsrod/IMS-CP-Manifest"
+      }
+   },
+   "version" : "0.0.1"
+}
+
