@@ -6,6 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
+README.mkdn
 dist.ini
 lib/IMS/CP/Manifest.pm
 lib/IMS/CP/Organization.pm

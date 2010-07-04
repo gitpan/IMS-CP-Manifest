@@ -3,7 +3,7 @@ use warnings;
 
 package IMS::CP::Organization::Item;
 BEGIN {
-  $IMS::CP::Organization::Item::VERSION = '0.0.1';
+  $IMS::CP::Organization::Item::VERSION = '0.0.2';
 }
 use Moose;
 with 'XML::Rabbit::Node';
@@ -50,7 +50,7 @@ IMS::CP::Organization::Item - A specific item in an organization of items
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 ATTRIBUTES
 

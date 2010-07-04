@@ -3,7 +3,7 @@ use warnings;
 
 package IMS::CP::Resource::File;
 BEGIN {
-  $IMS::CP::Resource::File::VERSION = '0.0.1';
+  $IMS::CP::Resource::File::VERSION = '0.0.2';
 }
 use Moose;
 with 'XML::Rabbit::Node';
@@ -47,7 +47,7 @@ IMS::CP::Resource::File - One file inside a resource
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 ATTRIBUTES
 

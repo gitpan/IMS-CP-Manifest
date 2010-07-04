@@ -17,8 +17,8 @@ meta-spec:
 name: IMS-CP-Manifest
 requires:
   Moose: 0
-  XML::Rabbit: 0.0.1
+  XML::Rabbit: 0.0.2
   perl: 5.008
 resources:
   repository: git://github.com/robinsmidsrod/IMS-CP-Manifest.git
-version: 0.0.1
+version: 0.0.2

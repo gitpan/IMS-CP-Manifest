@@ -3,7 +3,7 @@ use warnings;
 
 package IMS::LOM::LangString;
 BEGIN {
-  $IMS::LOM::LangString::VERSION = '0.0.1';
+  $IMS::LOM::LangString::VERSION = '0.0.2';
 }
 use Moose;
 with 'XML::Rabbit::Node';
@@ -40,7 +40,7 @@ IMS::LOM::LangString - A string of text in the specified language
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 ATTRIBUTES
 

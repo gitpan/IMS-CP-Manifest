@@ -3,7 +3,7 @@ use warnings;
 
 package IMS::CP::Resource;
 BEGIN {
-  $IMS::CP::Resource::VERSION = '0.0.1';
+  $IMS::CP::Resource::VERSION = '0.0.2';
 }
 use Moose;
 with 'XML::Rabbit::Node';
@@ -54,7 +54,7 @@ IMS::CP::Resource - A specific package resource
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 ATTRIBUTES
 

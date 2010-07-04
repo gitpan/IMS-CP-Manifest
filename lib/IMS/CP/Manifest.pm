@@ -3,7 +3,7 @@ use warnings;
 
 package IMS::CP::Manifest;
 BEGIN {
-  $IMS::CP::Manifest::VERSION = '0.0.1';
+  $IMS::CP::Manifest::VERSION = '0.0.2';
 }
 use Moose;
 with 'XML::Rabbit::RootNode';
@@ -51,7 +51,7 @@ IMS::CP::Manifest - IMS Content Packaging Manifest XML parser
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 DESCRIPTION
 
