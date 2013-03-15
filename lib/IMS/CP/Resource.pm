@@ -2,8 +2,8 @@ use strict;
 use warnings;
 
 package IMS::CP::Resource;
-BEGIN {
-  $IMS::CP::Resource::VERSION = '0.0.2';
+{
+  $IMS::CP::Resource::VERSION = '0.0.3';
 }
 use Moose;
 with 'XML::Rabbit::Node';
@@ -44,6 +44,7 @@ __PACKAGE__->meta->make_immutable();
 1;
 
 __END__
+
 =pod
 
 =encoding utf-8
@@ -54,7 +55,7 @@ IMS::CP::Resource - A specific package resource
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 ATTRIBUTES
 
@@ -76,14 +77,13 @@ The files associated with the resource.
 
 =head1 AUTHOR
 
-  Robin Smidsrød <robin@smidsrod.no>
+Robin Smidsrød <robin@smidsrod.no>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Robin Smidsrød.
+This software is copyright (c) 2013 by Robin Smidsrød.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

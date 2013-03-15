@@ -3,10 +3,13 @@
 use strict;
 use warnings;
 
-use Test::More tests => 43;
+use Test::More tests => 44;
 
 use utf8;
-use IMS::CP::Manifest;
+BEGIN {
+    use lib 'lib';
+    use_ok('IMS::CP::Manifest');
+}
 
 my $manifest = IMS::CP::Manifest->new( file => 't/data/10_parse/imsmanifest.xml' );
 isa_ok($manifest,'IMS::CP::Manifest');
@@ -85,7 +88,7 @@ XML
 chomp($file4_title_dump);
 #diag($file4->title->dump);
 is($file4->title->dump_xml, $file4_title_dump, "file4 title XML dump mismatch");
-    
+
 exit;
 
 1;

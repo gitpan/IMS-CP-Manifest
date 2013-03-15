@@ -2,34 +2,35 @@
 use strict;
 use warnings;
 
- BEGIN { require 5.008; } 
+use 5.008;
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'IMS Content Packaging Manifest XML parser',
-  'AUTHOR' => 'Robin Smidsrød <robin@smidsrod.no>',
-  'BUILD_REQUIRES' => {
-    'English' => '0',
-    'Test::More' => '0',
-    'utf8' => '0'
+  "ABSTRACT" => "IMS Content Packaging Manifest XML parser",
+  "AUTHOR" => "Robin Smidsr\303\270d <robin\@smidsrod.no>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => 0,
+    "utf8" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'IMS-CP-Manifest',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'IMS::CP::Manifest',
-  'PREREQ_PM' => {
-    'Moose' => '0',
-    'XML::Rabbit' => '0.0.2'
+  "DISTNAME" => "IMS-CP-Manifest",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "IMS::CP::Manifest",
+  "PREREQ_PM" => {
+    "Moose" => 0,
+    "XML::Rabbit" => "0.000200",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.0.2',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.0.3",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
